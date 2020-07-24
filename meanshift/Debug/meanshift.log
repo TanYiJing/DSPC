@@ -1,0 +1,22 @@
+﻿  meanshift.cpp
+C:\Users\tanyj\Desktop\meanshift\meanshift\msc.h(80,9): warning C4068: unknown pragma
+C:\Users\tanyj\Desktop\meanshift\meanshift\msc.h(124,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\tanyj\Desktop\meanshift\meanshift\msc.h(186): message : see reference to function template instantiation 'std::vector<Container,std::allocator<Container>> msc::mean_shift<T,ForwardIterator,Metric,Kernel,Estimator>(ForwardIterator,ForwardIterator,int,Metric,Kernel,Estimator,double,int)' being compiled
+          with
+          [
+              T=Scalar,
+              ForwardIterator=std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Container>>>,
+              Metric=msc::metrics::L2Sq,
+              Kernel=msc::kernels::ParabolicSq,
+              Estimator=msc::estimators::Constant
+          ]
+C:\Users\tanyj\Desktop\meanshift\meanshift\meanshift.cpp(91): message : see reference to function template instantiation 'std::vector<msc::Cluster<Scalar>,std::allocator<msc::Cluster<Scalar>>> msc::mean_shift_cluster<Scalar,std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,msc::metrics::L2Sq,msc::kernels::ParabolicSq,msc::estimators::Constant>(ForwardIterator,ForwardIterator,int,Metric,Kernel,Estimator,double,int)' being compiled
+          with
+          [
+              _Ty=Container,
+              ForwardIterator=std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Container>>>,
+              Metric=msc::metrics::L2Sq,
+              Kernel=msc::kernels::ParabolicSq,
+              Estimator=msc::estimators::Constant
+          ]
+  meanshift.vcxproj -> C:\Users\tanyj\Desktop\meanshift\Debug\meanshift.exe
